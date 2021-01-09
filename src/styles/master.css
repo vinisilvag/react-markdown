@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+}
+
+.input-area {
+  width: 50%;
+  height: 100vh;
+  position: relative;
+
+  resize: none;
+  padding: 20px;
+  font-size: 18px;
+  border: none;
+  border-right: 1px solid #d1d1d1;
+}
+
+.copy-button {
+  position: absolute;
+  top: 20px;
+  right: calc(50% + 20px);
+
+  font-size: 14px;
+  padding: 12px;
+  background-color: #762de7;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 0;
+}
+
+.copy-button:hover {
+  cursor: pointer;
+  background-color: #6220c9;
+}
+
+.markdown-container {
+  width: 50%;
+  height: 100vh;
+  padding: 20px;
+}
